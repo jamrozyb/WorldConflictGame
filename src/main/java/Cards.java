@@ -1,0 +1,3 @@
+public enum Cards {
+    RUSSIA,MEDIA,PROTEST,POLICE,EUROPEAN_UNION
+}
