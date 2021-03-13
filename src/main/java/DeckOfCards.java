@@ -2,6 +2,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
+// may be a singleton
 public class DeckOfCards {
     private List<Cards> cards;
 
@@ -24,6 +25,9 @@ public class DeckOfCards {
     }
     public void AddCard(Cards card){
         cards.add(card);
+    }
+    public Integer GetDeckSize(){
+        return cards.size();
     }
 
     public static void main(String[] args) {
